@@ -6,6 +6,9 @@ static var player: Player
 func _ready() -> void:
 	pass # Replace with function body.
 
+## What happens when we initialize this state?
+func Init() -> void:
+	pass
 
 ## What happens when the player enters this State?
 func Enter() -> void:
