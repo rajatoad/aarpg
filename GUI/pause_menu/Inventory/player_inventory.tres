@@ -1,30 +1,9 @@
-[gd_resource type="Resource" script_class="InventoryData" load_steps=9 format=3 uid="uid://cr6kpsql7arwx"]
+[gd_resource type="Resource" script_class="InventoryData" load_steps=3 format=3 uid="uid://cr6kpsql7arwx"]
 
 [ext_resource type="Script" uid="uid://b3heg5172v83c" path="res://GUI/pause_menu/Inventory/Scripts/inventory_data.gd" id="1_lky0a"]
 [ext_resource type="Script" uid="uid://mi44i6nq4arr" path="res://GUI/pause_menu/Inventory/Scripts/slot_data.gd" id="2_tqk72"]
-[ext_resource type="Resource" uid="uid://dqyr35tvwdh1c" path="res://Items/gem.tres" id="3_tqk72"]
-[ext_resource type="Resource" uid="uid://b6nsag456x00t" path="res://Items/stone.tres" id="4_ejl4v"]
-[ext_resource type="Resource" uid="uid://bpfit3tnwae6r" path="res://Items/potion.tres" id="5_qxg3g"]
-
-[sub_resource type="Resource" id="Resource_fr6g8"]
-script = ExtResource("2_tqk72")
-item_data = ExtResource("3_tqk72")
-quantity = 20
-metadata/_custom_type_script = "uid://mi44i6nq4arr"
-
-[sub_resource type="Resource" id="Resource_edsh7"]
-script = ExtResource("2_tqk72")
-item_data = ExtResource("4_ejl4v")
-quantity = 4
-metadata/_custom_type_script = "uid://mi44i6nq4arr"
-
-[sub_resource type="Resource" id="Resource_6uieo"]
-script = ExtResource("2_tqk72")
-item_data = ExtResource("5_qxg3g")
-quantity = 2
-metadata/_custom_type_script = "uid://mi44i6nq4arr"
 
 [resource]
 script = ExtResource("1_lky0a")
-slots = Array[ExtResource("2_tqk72")]([SubResource("Resource_fr6g8"), null, null, SubResource("Resource_edsh7"), null, SubResource("Resource_6uieo")])
+slots = Array[ExtResource("2_tqk72")]([null, null, null, null, null, null, null, null, null, null])
 metadata/_custom_type_script = "uid://b3heg5172v83c"
