@@ -67,8 +67,6 @@ offset_right = -35.0
 offset_bottom = 203.0
 grow_horizontal = 2
 theme_override_font_sizes/font_size = 10
-text = "This does somethingasdfasdfasdfasdfasdf
-adfsdfasdfasdfasdf"
 horizontal_alignment = 1
 autowrap_mode = 2
 
@@ -137,3 +135,6 @@ text = "Save"
 custom_minimum_size = Vector2(75, 0)
 layout_mode = 2
 text = "Load"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+max_polyphony = 4
